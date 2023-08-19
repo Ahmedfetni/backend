@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "skipLibCheck": true, //so type script does not show errors in the node modules folder 
+        "strict":true,
+        "module":"NodeNext",
+        "moduleResolution":"NodeNext",
+        "target":"ES2020",
+        "sourceMap": true,
+        "rootDir":"./",
+        "outDir": "public/"
+    },
+    "include":["src"],
+    "exclude": ["node_modules/"]
+}
