@@ -7,7 +7,7 @@ import helmet from "helmet";
 import morgan from "morgan"
 import path from "path";
 import { fileURLToPath } from "url";
-import connectDB from "./database_connection.js";
+import connectDB from "./database_connection.ts";
 
 //Middle ware configuration 
 

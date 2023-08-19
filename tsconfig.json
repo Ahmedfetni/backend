@@ -1,14 +1,22 @@
 {
     "compilerOptions": {
-        "skipLibCheck": true, //so type script does not show errors in the node modules folder 
+        /*to import ts files */
+        "allowImportingTsExtensions": true,
+        "noEmit": true,
+        /*to not check libraries */
+        "skipLibCheck": true, 
+        /* do not compile while there is an error*/
         "strict":true,
+        /*for node to work */
         "module":"NodeNext",
         "moduleResolution":"NodeNext",
         "target":"ES2020",
         "sourceMap": true,
+        /*what to compile */
         "rootDir":"./",
         "outDir": "public/"
     },
     "include":["src"],
-    "exclude": ["node_modules/"]
+    "exclude": ["node_modules/"],
+  
 }
